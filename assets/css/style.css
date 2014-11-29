@@ -1,0 +1,309 @@
+/*Custom Animation */
+.floating {
+  -webkit-animation-name: Floatingx;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-name: Floating;
+  -moz-animation-duration: 7s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+@-webkit-keyframes Floatingx {
+  from {
+    -webkit-transform: translate(0, 0px);
+  }
+  65% {
+    -webkit-transform: translate(0, 15px);
+  }
+  to {
+    -webkit-transform: translate(0, 0px);
+  }
+}
+@-moz-keyframes Floating {
+  from {
+    -moz-transform: translate(0, 0px);
+  }
+  65% {
+    -moz-transform: translate(0, 15px);
+  }
+  to {
+    -moz-transform: translate(0, 0px);
+  }
+}
+html {
+  background: url("../img/header-background.png") repeat scroll 0 0 #185fa0;
+}
+#preloader {
+  background: url("../img/header-background.png") repeat scroll 0 0 #185fa0;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  position: fixed;
+  z-index: 9999;
+}
+#preloader img {
+  position: absolute;
+  top: calc(50% - 112.5px);
+  left: calc(50% - 112.5px);
+  margin: 0;
+}
+.uk-container {
+  position: relative;
+  height: 100vh;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+.uk-container .gettingStart {
+  position: absolute;
+  top: calc(50% - 40px);
+  left: calc(50% - 122.5px);
+  z-index: 100;
+}
+.uk-container .gettingStart a {
+  background: #0D8FCA;
+  color: #FFF;
+  text-transform: uppercase;
+  padding: 0 40px;
+  line-height: 80px;
+  font-size: 25px;
+  font-family: monospace;
+  cursor: pointer;
+  display: inline-block;
+}
+.uk-container .quite {
+  text-align: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.uk-container .quite button {
+  position: absolute;
+  top: calc(100% - 90px);
+  left: calc(50% - 42px);
+  background: none;
+  color: #D45F27;
+  font-size: 70px;
+}
+.uk-container .quite button:hover,
+.uk-container .quite button:focus {
+  color: #60B5E9;
+}
+.uk-container footer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 100%;
+}
+.uk-container footer .credits {
+  background: #181844;
+  color: #FFF;
+  padding: 5px 25px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.gettingStarted header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 100%;
+}
+.gettingStarted footer {
+  position: absolute;
+  top: auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 100%;
+}
+.gettingStarted footer button {
+  width: 100%;
+  color: #D45F27;
+  font-size: 16px;
+  padding: 3px 0;
+  text-transform: uppercase;
+  background: #60B5E9;
+}
+.gettingStarted footer button:hover,
+.gettingStarted footer button:focus {
+  color: #FFF;
+  background: #60B5E9;
+}
+nav.uk-navbar .uk-navbar-nav {
+  width: 100%;
+  background-color: #60B5E9;
+}
+nav.uk-navbar .uk-navbar-nav li:first-child {
+  float: left;
+}
+nav.uk-navbar .uk-navbar-nav li:last-child {
+  float: right;
+}
+nav.uk-navbar .uk-navbar-nav li:nth-child(2) {
+  width: calc(100% - 103px);
+}
+nav.uk-navbar .uk-navbar-nav li a {
+  color: #FFF;
+}
+nav.uk-navbar .uk-navbar-nav li a:hover,
+nav.uk-navbar .uk-navbar-nav li a:focus {
+  background-color: #306CA4;
+}
+.mainContent {
+  height: calc(100% - 73px);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.mainContent.mainMenu a {
+  display: block;
+  margin: 10px 25px;
+  padding: 15px 0;
+  color: #1F9EE5;
+}
+.mainContent.mainMenu a i {
+  display: block;
+  color: #EB7D31;
+}
+.mainContent.mainMenu a:hover {
+  background-color: #1F9EE5;
+  color: #FFF;
+}
+.mainContent.mainMenu p {
+  color: #FFF;
+  padding: 20px 0 10px;
+}
+.mainContent p a {
+  color: #1F9EE5;
+}
+#side_nav .uk-nav .uk-nav-sub li {
+  padding-left: 10px;
+}
+#platformSelect .uk-modal-dialog {
+  margin: 30px;
+  padding: 20px;
+  text-align: center;
+}
+#platformSelect .uk-modal-dialog a {
+  display: block;
+  margin: 0 0 10px;
+  padding: 10px 0;
+  background-color: #1F9EE5;
+  color: #FFF;
+  text-transform: uppercase;
+}
+#platformSelect .uk-modal-dialog a i {
+  display: block;
+  font-size: 30px;
+}
+.accordion_nav {
+  padding: 10px;
+}
+.accordion_nav .uk-parent {
+  margin-bottom: 5px;
+}
+.accordion_nav .uk-parent a {
+  background: #1F9EE5;
+  line-height: 40px;
+  font-size: 18px;
+  padding: 0;
+  font-weight: 100;
+  color: #FFF;
+  border: 1px solid #1F9EE5;
+}
+.accordion_nav .uk-parent a:before {
+  content: "+";
+  background: #306CA4;
+  font-weight: 100;
+  width: 40px;
+  line-height: 40px;
+  float: left;
+}
+.accordion_nav .uk-parent a:hover,
+.accordion_nav .uk-parent a:focus {
+  background: #1F9EE5;
+}
+.accordion_nav .uk-parent.uk-open a {
+  background: #1F9EE5;
+}
+.accordion_nav .uk-parent.uk-open a:before {
+  content: "_";
+  font-size: 16px;
+  line-height: 22px;
+  padding-bottom: 18px;
+}
+.accordion_nav .uk-parent ul.uk-nav-sub {
+  padding: 0;
+}
+.accordion_nav .uk-parent ul.uk-nav-sub .tips_table {
+  text-align: left;
+}
+.accordion_nav .uk-parent ul.uk-nav-sub .tips_table thead {
+  background: #EEE;
+  border-bottom: 2px solid #ddd;
+}
+.accordion_nav .uk-parent ul.uk-nav-sub .tips_table tbody tr:nth-child(even) {
+  background: #EEE;
+}
+.accordion_nav .uk-parent ul.uk-nav-sub .tips_table tbody tr td {
+  vertical-align: middle;
+}
+.accordion_nav .uk-parent ul.uk-nav-sub .tips_table tbody tr td:nth-child(2) {
+  letter-spacing: 4px;
+}
+.accordion_nav .uk-parent ul.uk-nav-sub .tips_table tbody tr td .key {
+  font-family: monospace;
+  padding: 1px 6px;
+  background: #f0f0f0;
+  background: -moz-linear-gradient(top, #f0f0f0, #fcfcfc);
+  background: -webkit-gradient(linear, center top, center bottom, from(#f0f0f0), to(#fcfcfc));
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  color: #303030;
+  border: 1px solid #e0e0e0;
+  border-bottom-width: 2px;
+  white-space: nowrap;
+  border-spacing: 2px;
+  border-color: gray;
+  font-size: 14px;
+  line-height: 200%;
+  letter-spacing: normal;
+  margin-right: 4px;
+}
+.features {
+  text-align: justify;
+  padding: 0 20px;
+}
+.features * {
+  color: #FFF;
+}
+.features h2 {
+  margin: 20px 0 0;
+}
+.features ul {
+  list-style: square;
+  padding-left: 15px;
+}
+.features ul li {
+  padding: 0 0 10px 5px;
+}
+.features ol.uk-nav {
+  list-style: decimal;
+  padding-left: 15px;
+}
+.features ol.uk-nav li {
+  padding: 0 0 10px 5px;
+}

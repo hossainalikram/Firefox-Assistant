@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FireFox Assistant</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta name="viewport" content="width=device-width,user-scalable=no" />
+    
+    <meta name="author" content="Cell Of Geeks - Nasir, Iqram, Waris, Shahed">
+    <meta name="application-name" content="Firefox Assistant">
+    <meta name="description" content="Firefox Assistant a app which build with Tips & Tricks for Firefox and features">
+    <meta name="keywords" content="firefox, assistant, tutorial, app, mobile, os, tips, tricks, feature, nasir, mozilla, apps">
+    
+    <link rel="stylesheet" href="assets/css/uikit.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">    
+</head>
+<body>
+    
+    <div id="preloader">
+        <img src="assets/img/blue-firefox.png" alt="" class="floating">
+    </div>
+    
+    <div class="home_page uk-container">        
+        <div class="gettingStart">
+            <a href="get-started.html" class="uk-button">Get Started</a>
+        </div>
+        <div class="quite">
+            <button class="uk-button" onClick="window.close()"><i class="uk-icon-power-off"></i></button>
+        </div>
+        <footer>
+            <a class="uk-button credits" href="credits.html">Credits</a>
+        </footer>
+    </div>
+    
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/uikit.min.js"></script>
+    <script>
+        // Preloder
+            $(window).bind("load", function() {
+               $('#preloader').fadeOut("slow");
+            });
+        // Preloader
+    </script>
+</body>
+</html>

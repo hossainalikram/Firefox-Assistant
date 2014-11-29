@@ -1,0 +1,19 @@
+{
+	
+    "version":"1.01",
+    "name": "Firefox Assistant",
+    "description": "Firefox Assistant helps to learn some basic tips and tricks of Firefox. #firefoxstudents",
+    "launch_path": "/index.html",
+    "icons": {
+		"64": "/icons/64.png",
+		"96": "/icons/96.png",
+        "128": "/icons/128.png"
+    },
+	"developer": {
+        "name": "Cell Of Geeks",
+        "url": "http://www.facebook.com/iamiqram"
+    },
+     "default_locale": "en",
+	 	"fullscreen": "true"
+	
+}

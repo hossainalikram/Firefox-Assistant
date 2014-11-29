@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FireFox Assistant</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta name="viewport" content="width=device-width,user-scalable=no" />
+    
+    <meta name="author" content="Cell Of Geeks - Nasir, Iqram, Waris, Shahed">
+    <meta name="application-name" content="Firefox Assistant">
+    <meta name="description" content="Firefox Assistant a app which build with Tips & Tricks for Firefox and features">
+    <meta name="keywords" content="firefox, assistant, tutorial, app, mobile, os, tips, tricks, feature, nasir, mozilla, apps">
+    
+    <link rel="stylesheet" href="assets/css/uikit.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">    
+</head>
+<body>
+    
+    <div class="gettingStarted uk-container">        
+        <nav class="uk-navbar">
+            <ul class="uk-navbar-nav">
+                <li><a href="#side_nav" data-uk-offcanvas><i class="uk-icon-bars"></i></a></li>
+                <li><a href="index.html">Tips - Windows</a></li>
+                <li><a href="get-started.html">Back</a></li>
+            </ul>
+        </nav>
+        <div class="mainContent uk-clearfix">
+            <ul class="uk-nav accordion_nav" data-uk-nav>
+                <li class="uk-parent">
+                    <a href="#">Navigation</a>
+                    <ul class="uk-nav-sub">
+                        <li>
+                            <div class="uk-clearfix">
+                                <div class="uk-overflow-container tips_table">
+                                    <table class="uk-table uk-table-hover uk-table-striped uk-table-condensed">
+                                        <thead>
+                                            <tr><th class="uk-width-1-2">Command</th><th class="uk-width-1-2">Shortcuts</th></tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="uk-width-1-2">Back</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Alt</span>+<span class="key"><i class="uk-icon-arrow-left"></i></span>
+                                                    <br>
+                                                    <span class="key">Backspace</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="uk-width-1-2">Forward</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Alt</span>+<span class="key"><i class="uk-icon-arrow-right"></i></span>
+                                                    <br>
+                                                    <span class="key">Shift</span>+<span class="key">Backspace</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="uk-width-1-2">Home</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Alt</span>+<span class="key">Home</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="uk-width-1-2">Open File</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Ctrl</span>+<span class="key">O</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="uk-width-1-2">Reload</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">F5</span>
+                                                    <br>
+                                                    <span class="key">Ctrl</span>+<span class="key">R</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="uk-width-1-2">Reload (override cache)</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Ctrl</span>+<span class="key">F5</span>
+                                                    <br>
+                                                    <span class="key">Ctrl</span>+<span class="key">Shift</span>+<span class="key">R</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="uk-width-1-2">Stop</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Esc</span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li class="uk-parent">
+                    <a href="#">Current Page</a>
+                    <ul class="uk-nav-sub">
+                        <li>
+                            <div class="uk-clearfix">
+                                <div class="uk-overflow-container tips_table">
+                                    <table class="uk-table uk-table-hover uk-table-striped uk-table-condensed">
+                                        <thead>
+                                            <tr><th class="uk-width-1-2">Command</th><th class="uk-width-1-2">Shortcuts</th></tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="uk-width-1-2">Go Down a Screen</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Page Down</span>
+                                                     
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="uk-width-1-2">Go Up a Screen</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Page Up</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="uk-width-1-2">Go to Bottom of Page</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">End</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="uk-width-1-2">Go to Top of Page</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Home</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="uk-width-1-2">Move to Next Frame</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">F6</span>
+                                                    
+                                                </td>
+                                            </tr>
+											<tr>
+                                                <td class="uk-width-1-2">Move to Previous Frame</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Shift</span> + <span class="key">F6</span>
+                                                    
+                                                </td>
+                                            </tr>
+											<tr>
+												<td class="uk-width-1-2">Print</td>
+												<td class="uk-width-1-2">
+													<span class="key">Ctrl</span> + <span class="key">P</span>
+												</td></tr>
+											<tr>
+											<tr>
+												<td class="uk-width-1-2">Save Page As</td>
+												<td class="uk-width-1-2">
+													<span class="key">Ctrl</span> + <span class="key">S</span
+												</td></tr>
+											<tr>
+                                            <tr>
+                                                <td class="uk-width-1-2">Zoom In</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Ctrl</span> + <span class="key">+</span>
+                                                    
+                                                </td>
+                                            </tr>
+											<tr>
+                                                <td class="uk-width-1-2">Zoom Out</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Ctrl</span> - <span class="key">+</span>
+                                                    
+                                                </td>
+                                            </tr>
+											<tr>
+                                                <td class="uk-width-1-2">Zoom Reset</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Ctrl</span> + <span class="key">0</span>
+                                                    
+                                                </td>
+                                            </tr>
+                                            
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li class="uk-parent">
+                    <a href="#">Editing</a>
+                    <ul class="uk-nav-sub">
+                        <li>
+                            <div class="uk-clearfix">
+                                <div class="uk-overflow-container tips_table">
+                                    <table class="uk-table uk-table-hover uk-table-striped uk-table-condensed">
+                                        <thead>
+                                            <tr><th class="uk-width-1-2">Command</th><th class="uk-width-1-2">Shortcuts</th></tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="uk-width-1-2">Copy</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Ctrl</span> + <span class="key">C</span></span>
+                                                     
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="uk-width-1-2">Cut</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Ctrl</span> + <span class="key">X</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="uk-width-1-2">Delete</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Del</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="uk-width-1-2">Paste</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Ctrl</span> + <span class="key">V</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="uk-width-1-2">Paste (as plain text)</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Ctrl</span> + <span class="key">Shift</span> + <span class="key">V</span></span>
+                                                    
+                                                </td>
+                                            </tr>
+											<tr>
+                                                <td class="uk-width-1-2">Redo</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Ctrl</span> + <span class="key">Y</span>
+                                                    
+                                                </td>
+                                            </tr>
+											<tr>
+												<td class="uk-width-1-2">Select All</td>
+												<td class="uk-width-1-2">
+													<span class="key">Ctrl</span> + <span class="key">A</span>
+												</td></tr>
+											<tr>
+											<tr>
+												<td class="uk-width-1-2">Undo</td>
+												<td class="uk-width-1-2">
+													<span class="key">Ctrl</span> + <span class="key">Z</span>
+												</td></tr>
+											<tr>
+                                            
+                                            
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li class="uk-parent">
+                    <a href="#">Search</a>
+                    <ul class="uk-nav-sub">
+                        <li>
+                            <div class="uk-clearfix">
+                                <div class="uk-overflow-container tips_table">
+                                    <table class="uk-table uk-table-hover uk-table-striped uk-table-condensed">
+                                        <thead>
+                                            <tr><th class="uk-width-1-2">Command</th><th class="uk-width-1-2">Shortcuts</th></tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="uk-width-1-2">Find</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Ctrl</span> + <span class="key">F</span>
+                                                     
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="uk-width-1-2">Find Again</td>
+                                                <td class="uk-width-1-2">
+													<span class="key">F3</span> Or<br/>
+                                                    <span class="key">Ctrl</span> + <span class="key">G</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="uk-width-1-2">Find Previous</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Shift</span> + <span class="key">F3</span> Or<br/>
+													<span class="key">Ctrl</span> + <span class="key">Shift</span> + <span class="key">G</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="uk-width-1-2">Quick Find within link-text only</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">'</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="uk-width-1-2">Quick Find</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">/</span>
+                                                    
+                                                </td>
+                                            </tr>
+											<tr>
+                                                <td class="uk-width-1-2">Close the Find or Quick Find bar</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Esc</span><br/>
+													When it is on
+                                                    
+                                                </td>
+                                            </tr>
+											<tr>
+												<td class="uk-width-1-2">Focus Search bar</td>
+												<td class="uk-width-1-2">
+													<span class="key">Ctrl</span> + <span class="key">K</span>Or <br/>
+													<span class="key">Ctrl</span> + <span class="key">E</span>
+												</td></tr>
+											<tr>
+											<tr>
+												<td class="uk-width-1-2">Quickly switch between search engines</td>
+												<td class="uk-width-1-2">
+													<span class="key">Ctrl</span> + <span class="key"><i class="uk-icon-arrow-up"></i></span>or<br/>
+													<span class="key">Ctrl</span> + <span class="key"><i class="uk-icon-arrow-down"></i></span>
+												</td></tr>
+											<tr>
+                                            <tr>
+                                                <td class="uk-width-1-2">View menu to switch, add or manage search engines</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Alt</span> + <span class="key"><i class="uk-icon-arrow-up"></i></span>or<br/>
+                                                    <span class="key">Alt</span> + <span class="key"><i class="uk-icon-arrow-down"></i></span>or<br/>
+													<span class="key">F4</span>
+                                                </td>
+                                            </tr>
+										                                            
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li class="uk-parent">
+                    <a href="#">Tabs</a>
+                    <ul class="uk-nav-sub">
+                        <li>
+                            <div class="uk-clearfix">
+                                <div class="uk-overflow-container tips_table">
+                                    <table class="uk-table uk-table-hover uk-table-striped uk-table-condensed">
+                                        <thead>
+                                            <tr><th class="uk-width-1-2">Command</th><th class="uk-width-1-2">Shortcuts</th></tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="uk-width-1-2">Close Tab</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Ctrl</span> + <span class="key">W</span>Or<br>
+													<span class="key">Ctrl</span> + <span class="key">F4</span>
+                                                     
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="uk-width-1-2">Close Window</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Ctrl</span> + <span class="key">Shift</span> + <span class="key">W</span><br/>Or<br>
+													<span class="key">Alt</span> + <span class="key">F4</span>
+                                                </td>
+                                            </tr>
+                                            
+											<tr>
+                                                <td class="uk-width-1-2">Move Tab in focus Left</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Ctrl</span> + <span class="key">Shift</span> + <span class="key">Page Up</span>
+                                                </td>
+                                            </tr>
+											<tr>
+                                                <td class="uk-width-1-2">Move Tab in focus Right</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Ctrl</span> + <span class="key">Shift</span> + <span class="key">Page Down</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="uk-width-1-2">Move Tab in focus to start</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Ctrl</span> + <span class="key">Home</span></span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="uk-width-1-2">Move Tab in focus to end</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Ctrl</span> + <span class="key">End</span>
+                                                    
+                                                </td>
+                                            </tr>
+											<tr>
+                                                <td class="uk-width-1-2">New Tab</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Ctrl</span> + <span class="key">T</span></span>
+                                                    
+                                                </td>
+                                            </tr>
+											<tr>
+												<td class="uk-width-1-2">New Window</td>
+												<td class="uk-width-1-2">
+													<span class="key">Ctrl</span> + <span class="key">N</span>
+												</td></tr>
+											<tr>
+											<tr>
+												<td class="uk-width-1-2">New Private Window</td>
+												<td class="uk-width-1-2">
+													<span class="key">Ctrl</span> + <span class="key">Shift</span> + <span class="key">P</span>
+												</td></tr>
+											<tr>
+                                            <tr>
+                                                <td class="uk-width-1-2">Next Tab</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Ctrl</span> + <span class="key">Tab</span><br><span class="key">Ctrl</span> + <span class="key">Page Down</span>
+                                                    
+                                                </td>
+                                            </tr>
+											<tr>
+                                                <td class="uk-width-1-2">Open Address in New Tab</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Alt</span> + <span class="key">Enter</span></span>
+                                                    
+                                                </td>
+                                            </tr>
+											<tr>
+                                                <td class="uk-width-1-2">Previous Tab</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Ctrl</span> + <span class="key">Shift</span> + <span class="key">Tab</span>Or<br>
+													<span class="key">Ctrl</span> + <span class="key">Page Up</span>
+                                                    
+                                                </td>
+                                            </tr>
+											<tr>
+                                                <td class="uk-width-1-2">Undo Close Tab</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Ctrl</span> + <span class="key">Shift</span> + <span class="key">T</span>
+                                                    
+                                                </td>
+                                            </tr>
+											<tr>
+                                                <td class="uk-width-1-2">Select Tab 1 to 8</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Ctrl</span> + <span class="key">1</span>to<span class="key">8</span>
+                                                    
+                                                </td>
+                                            </tr>
+											<tr>
+                                                <td class="uk-width-1-2">Select Last Tab</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Ctrl</span> + <span class="key">9</span></span>
+                                                    
+                                                </td>
+                                            </tr>
+											<tr>
+                                                <td class="uk-width-1-2">Tab Groups View</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Esc</span>
+                                                    
+                                                </td>
+                                            </tr>
+											<tr>
+                                                <td class="uk-width-1-2">Previous Tab Group</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Ctrl</span> + <span class="key">Shift</span> + <span class="key">`</span>
+                                                    
+                                                </td>
+                                            </tr>
+											                                            
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li class="uk-parent">
+                    <a href="#">History</a>
+                    <ul class="uk-nav-sub">
+                        <li>
+                            <div class="uk-clearfix">
+                                <div class="uk-overflow-container tips_table">
+                                    <table class="uk-table uk-table-hover uk-table-striped uk-table-condensed">
+                                        <thead>
+                                            <tr><th class="uk-width-1-2">Command</th><th class="uk-width-1-2">Shortcuts</th></tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="uk-width-1-2">History sidebar</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Ctrl</span> + <span class="key">H</span></span>
+                                                     
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="uk-width-1-2">Library window (History)</td>
+                                                <td class="uk-width-1-2">
+													<span class="key">Ctrl</span> + <span class="key">Shift</span> + <span class="key">H</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="uk-width-1-2">Clear Recent History</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Ctrl</span> + <span class="key">Shift</span> + <span class="key">Del</span>
+                                                </td>
+                                            </tr>
+                                            										                                            
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li class="uk-parent">
+                    <a href="#">Bookmarks</a>
+                    <ul class="uk-nav-sub">
+                        <li>
+                            <div class="uk-clearfix">
+                                <div class="uk-overflow-container tips_table">
+                                    <table class="uk-table uk-table-hover uk-table-striped uk-table-condensed">
+                                        <thead>
+                                            <tr><th class="uk-width-1-2">Command</th><th class="uk-width-1-2">Shortcuts</th></tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="uk-width-1-2">Bookmark All Tabs</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Ctrl</span> + <span class="key">Shift</span> + <span class="key">D</span>
+                                                     
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="uk-width-1-2">Bookmark This Page</td>
+                                                <td class="uk-width-1-2">
+													<span class="key">Ctrl</span> + <span class="key">D</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="uk-width-1-2">Bookmarks sidebar</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Ctrl</span> + <span class="key">B</span>Or<br>
+													<span class="key">Ctrl</span> + <span class="key">I</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="uk-width-1-2">Library window (Bookmarks)</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Ctrl</span> + <span class="key">Shift</span> + <span class="key">B</span>
+                                                </td>
+                                            </tr>
+                                            
+										                                            
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li class="uk-parent">
+                    <a href="#">Tools</a>
+                    <ul class="uk-nav-sub">
+                        <li>
+                            <div class="uk-clearfix">
+                                <div class="uk-overflow-container tips_table">
+                                    <table class="uk-table uk-table-hover uk-table-striped uk-table-condensed">
+                                        <thead>
+                                            <tr><th class="uk-width-1-2">Command</th><th class="uk-width-1-2">Shortcuts</th></tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="uk-width-1-2">Downloads</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Ctrl</span> + <span class="key">J</span>
+                                                     
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="uk-width-1-2">Add-ons</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Ctrl</span> + <span class="key">Shift</span> + <span class="key">A</span>
+                                                </td>
+                                            </tr>
+                                            
+											<tr>
+                                                <td class="uk-width-1-2">Toggle Developer Tools</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">F12</span>Or<br/>
+													<span class="key">Ctrl</span> + <span class="key">Shift</span> + <span class="key">I</span>
+
+                                                </td>
+                                            </tr>
+											<tr>
+                                                <td class="uk-width-1-2">Web Console</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Ctrl</span> + <span class="key">Shift</span> + <span class="key">K</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="uk-width-1-2">Inspector</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Ctrl</span> + <span class="key">Shift</span> + <span class="key">C</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="uk-width-1-2">Debugger</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Ctrl</span> + <span class="key">Shift</span> + <span class="key">S</span>
+                                                    
+                                                </td>
+                                            </tr>
+											<tr>
+                                                <td class="uk-width-1-2">Style Editor</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Shift</span> + <span class="key">F7</span>
+                                                    
+                                                </td>
+                                            </tr>
+											<tr>
+												<td class="uk-width-1-2">Profiler</td>
+												<td class="uk-width-1-2">
+													<span class="key">Shift</span> + <span class="key">F5</span>
+												</td></tr>
+											<tr>
+											<tr>
+												<td class="uk-width-1-2">Network</td>
+												<td class="uk-width-1-2">
+													<span class="key">Ctrl</span> + <span class="key">Shift</span> + <span class="key">Q</span>
+												</td></tr>
+											<tr>
+                                            <tr>
+                                                <td class="uk-width-1-2">Developer Toolbar</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Shift</span> + <span class="key">F2</span>
+                                                    
+                                                </td>
+                                            </tr>
+											<tr>
+                                                <td class="uk-width-1-2">Responsive Design View</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Ctrl</span> + <span class="key">Shift</span> + <span class="key">M</span>
+                                                    
+                                                </td>
+                                            </tr>
+											<tr>
+                                                <td class="uk-width-1-2">Scratchpad</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Shift</span> + <span class="key">F4</span>
+                                                    
+                                                </td>
+                                            </tr>
+											<tr>
+                                                <td class="uk-width-1-2">Page Source</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Ctrl</span> + <span class="key">U</span>
+                                                    
+                                                </td>
+                                            </tr>
+											<tr>
+                                                <td class="uk-width-1-2">Browser Console</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Ctrl</span> + <span class="key">Shift</span> + <span class="key">J</span>
+                                                    
+                                                </td>
+                                            </tr>
+											
+											                                            
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li class="uk-parent">
+                    <a href="#">Miscellaneous</a>
+                    <ul class="uk-nav-sub">
+                        <li>
+                            <div class="uk-clearfix">
+                                <div class="uk-overflow-container tips_table">
+                                    <table class="uk-table uk-table-hover uk-table-striped uk-table-condensed">
+                                        <thead>
+                                            <tr><th class="uk-width-1-2">Command</th><th class="uk-width-1-2">Shortcuts</th></tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="uk-width-1-2">Complete .com Address</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Ctrl</span> + <span class="key">Enter</span>
+                                                     
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="uk-width-1-2">Complete .net Address</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Shift</span> + <span class="key">Enter</span>
+                                                </td>
+                                            </tr>
+                                            
+											<tr>
+                                                <td class="uk-width-1-2">Complete .org Address</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Ctrl</span> + <span class="key">Shift</span> + <span class="key">Enter</span>
+
+                                                </td>
+                                            </tr>
+											<tr>
+                                                <td class="uk-width-1-2">Delete Selected Autocomplete Entry</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Del</span></span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="uk-width-1-2">Toggle Full Screen</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">F11</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="uk-width-1-2">Show/Hide Add-on Bar</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Ctrl</span> + <span class="key">/</span>
+                                                    
+                                                </td>
+                                            </tr>
+											<tr>
+                                                <td class="uk-width-1-2">Caret Browsing</td>
+                                                <td class="uk-width-1-2">
+                                                    <span class="key">Shift</span> + <span class="key">F7</span>
+                                                    
+                                                </td>
+                                            </tr>
+											<tr>
+												<td class="uk-width-1-2">Select Location Bar</td>
+												<td class="uk-width-1-2">
+													<span class="key">F6</span>
+												</td></tr>
+											<tr>
+																			
+											                                            
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <footer>
+            <button class="uk-button" onClick="window.close()">Quit</button>
+        </footer>
+    </div>    
+    
+    <div id="side_nav" class="uk-offcanvas">
+        <div class="uk-offcanvas-bar">
+            <ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" data-uk-nav>
+                <li class="uk-parent">
+                    <a href="#">Tips &amp; Tricks</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="windows.html">Windows</a></li>
+                        <li><a href="linux.html">Linux</a></li>
+                        <li><a href="mac.html">Mac</a></li>
+                    </ul>
+                </li>
+                <li class="uk-parent">
+                    <a href="#">Features</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="add-ons.html">Add Ons</a></li>
+                        <li><a href="built-in-search.html">Built In Search</a></li>
+                        <li><a href="customize.html">Customize</a></li>
+                        <li><a href="pop-up.html">Pop Up</a></li>
+                        <li><a href="privacy.html">Privacy</a></li>
+                        <li><a href="sync.html">Sync</a></li>
+                    </ul>
+                </li>
+                <li><a href="supports.html">Supports</a></li>
+                <li><a href="credits.html">Credits</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/uikit.min.js"></script>
+</body>
+</html>
